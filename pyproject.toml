@@ -1,0 +1,9 @@
+[project]
+name = "claude-skills-workspace"
+version = "0.1.0"
+description = "Workspace de skills reutilizables (scrape-webs, scrape-leads)"
+requires-python = ">=3.13"
+dependencies = [
+    "beautifulsoup4>=4.15.0",
+    "httpx>=0.28.1",
+]
